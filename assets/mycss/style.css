@@ -1,0 +1,290 @@
+@font-face{
+    font-family: "Raleway-Light";
+    src: url("../font/Raleway-Light.ttf");
+}
+
+@font-face{
+    font-family: "Raleway-Bold";
+    src: url("../font/Raleway-Bold.ttf");
+}
+@font-face{
+    font-family: 'Raleway-Regular';
+    src: url("../font/Raleway-Regular.ttf");
+}
+
+.hero-atas{
+    background-image: url('../img/home/background1_01.jpg');
+    background-size: cover;
+}
+
+.hero-font{
+    font-family: "raleway";
+    src: url(../font/Raleway-Bold.ttf);
+    font-size: 70px;
+}
+
+.hero-subtitle{
+    font-family: "Better Signature";
+    font-size: 37px;
+    
+}
+
+.btn-primary{
+    margin-top: 100px;
+    font-size: 20px;
+    background-color: #648c64;
+    border: none;
+    color: #fff;
+    width: 200px;
+    
+}
+
+.btn-primary:hover{
+    
+    background-color: #6ead6e !important;
+    border: none;
+    color: white;
+}
+
+.navbar{
+    padding: 10px;
+}
+.navbar-item{
+    color: #c5c5c5 !important;
+}
+
+.navbar-item:hover{
+    color: #9e9e9e !important;
+    background: transparent !important;
+}
+
+.hero-back{
+    background-color: #ffffff !important;
+}
+
+.content{
+    padding-top: 50px;
+}
+
+
+
+.columns{
+    padding-top: 90px;
+    font-family: "Raleway-Bold";
+    color: #000000 !important;
+}
+.hero-title{
+    font-family: 'Raleway-Light';
+    color: black !important;
+}
+
+.font20{
+    font-size: 25px !important;
+    font-family: 'Raleway-Light';
+}
+
+.yoi{
+    color: #000000 !important;
+    padding-top: 200px;
+    font-family: "raleway";
+    font-size: 20px;
+}
+
+.ini{
+    padding-top: 50px;
+    color: #000000 !important;
+}
+
+/* work */
+
+.height-100 img{
+    height: 573px;
+}
+
+.height-250 img{
+    height: 572px;
+}
+
+.height-200 img{
+    height: 573px;
+}
+
+.height-50 img{
+    height: 430px;
+}
+
+.height-150 img{
+    height: 430px;
+}
+
+/* Create four equal columns that sits next to each other */
+
+.flex{
+    display: flex;
+}
+.flex-direction{
+    flex-direction: column;
+}
+.justify-center{
+    justify-content: center;
+}
+.margin-top-20{
+    margin-top: 20px;
+}
+.align-center{
+    align-items: center;
+}
+
+.margin-top-100{
+    margin-top: 100px;
+
+}
+
+.client{
+    background-color: #cfcece !important;
+    margin-top: -7px;
+} 
+
+.team{
+    background-color: #f2f1f1 !important;
+}
+
+.contac{
+    background-color: #333333 !important;
+}
+.contact{
+    font-family: 'Raleway-Light';
+    color: #dddddd !important;
+}
+
+.font16{
+    font-size: 26px !important;
+}
+
+.font14{
+    font-size: 18px !important;
+}
+
+.alamat{
+    font-family: 'Raleway-Regular';
+    color: #cccccc !important;
+}
+
+/*CONTACT FROM */
+
+.contactFrm input[type="text"], .contactFrm input[type="email"] {
+    background: #444444;    
+    width: 25%;
+    outline: none;
+    font-size: 0.9em;
+    padding: .7em 1em;
+    border: 1px solid #000;
+    -webkit-appearance: none;
+    display: block;
+    margin-bottom: ;
+}
+.contactFrm textarea {
+    background: #444444;
+    resize: none;
+    width: 25%;
+    font-size: 0.9em;
+    outline: none;
+    padding: .6em 1em;
+    border: 1px solid #000;
+    min-height: 10em;
+    -webkit-appearance: none;
+}
+.contactFrm input[type="submit"] {
+    font-family: 'Raleway-Light';
+    outline: none;
+    color: #FFFFFF;
+    padding: 0.5em 0;
+    font-size: 1em;
+    margin-top: -6px;
+    -webkit-appearance: none;
+    background: #648c64;
+    transition: 0.5s all;
+    border: 1px solid #000;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    width: 25%;
+    cursor: pointer;
+}
+.contactFrm input[type="submit"]:hover {
+    background: none;
+    color: #ffffff;
+}
+
+p.statusMsg{font-size:18px;}
+p.succdiv{color: #008000;}
+p.errordiv{color:#E80000;}
+
+.navbar-menu{
+    background: transparent !important;
+}
+/*
+coba*/
+
+.headroom{
+    transition: transform 0.55s ease-in-out 0s;
+    will-change: transform;
+}
+.is-putih{
+    background-color: white !important;
+}
+.headroom--pinned{
+    transform: translateY(0px);
+}
+
+.headroom--unpinned{
+    transform: translateY(-100%);
+}
+
+.header--fixed {
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+.background-white{
+    background-color: white;
+}
+.padding-40{
+    padding: 40px;
+}
+/* transisi*/
+.affix{
+    display: none;
+}
+
+.btnmodal{
+
+    background-color: #648c64 !important;
+    border: none;
+    color: white !important;
+}
+
+.btnmodal:hover{
+    
+    background-color: #6ead6e !important;
+    border: none;
+    color: white;
+}
+
+.frmbooking{
+
+    background: #444444;    
+    width: 55%;
+    outline: none;
+    font-size: 0.9em;
+    padding: .7em 1em;
+    border: 1px solid #000;
+    -webkit-appearance: none;
+    display: block;
+    margin-bottom: ;
+}
+
+
+
